@@ -5,7 +5,8 @@ Template for starting a BE application in Go.
 
 - [Go](https://golang.org/doc/install)
 - [Docker](https://docs.docker.com/get-docker)
-- [Just](https://github.com/casey/just) (optional, but recommended)
+- [migrate](https://github.com/golang-migrate/migrate)
+- [just](https://github.com/casey/just) (optional, but recommended)
 
 ## Getting Started
 
