@@ -4,6 +4,6 @@ app:
 database:
   username: "postgres"
   password: "password"
-  name: "main"
+  name: "maindb"
   host: "localhost"
   port: 5432
