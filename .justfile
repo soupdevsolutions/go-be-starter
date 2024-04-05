@@ -5,7 +5,7 @@ go-get:
 init name:
     @echo "Initializing project..."
     @chmod +x ./scripts/init_project.sh
-    @./scripts/init_project.sh
+    @./scripts/init_project.sh {{name}}
     @rm -f ./scripts/init_project.sh
 
 create-migration name:
