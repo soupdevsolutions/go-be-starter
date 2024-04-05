@@ -1,7 +1,3 @@
-go-get:
-    @echo "Getting dependencies..."
-    @cd src && go get -v -t ./...
-
 init name:
     @echo "Initializing project..."
     @chmod +x ./scripts/init_project.sh
