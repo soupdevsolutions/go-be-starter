@@ -1,7 +1,7 @@
-init name:
+init project_name db_name:
     @echo "Initializing project..."
     @chmod +x ./scripts/init_project.sh
-    @./scripts/init_project.sh {{name}}
+    @./scripts/init_project.sh {{project_name}} {{db_name}}
     @rm -f ./scripts/init_project.sh
 
 create-migration name:
